@@ -44,15 +44,14 @@
     
           $("a#invite_fb_friends").click(function() {
             FB.init({
-               appId:'382591688439865',
+               appId: '149435131801747',
                xfbml: true,
                cookie: true
               });
       
           FB.ui({
-            method: 'send',
-            name: 'People Argue Just to Win',
-            link: 'http://www.nytimes.com/2011/06/15/arts/people-argue-just-to-win-scholars-assert.html'
+            method: 'apprequest',            
+            message: 'Here is a new Requests dialog...'
               });
 
             });
